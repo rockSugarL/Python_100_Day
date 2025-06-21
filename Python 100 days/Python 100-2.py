@@ -18,48 +18,46 @@ print(3*(3+3)/3-3)
 
 # Day 2.2 BMI calculator excercise
 # don't change the code below
-#height = input ("enter your height in m:")
-#weight = input (" enter your weight in kg:")
+eight = input ("enter your height in m:")
+weight = input (" enter your weight in kg:")
 # don't change the code above
 
 # write your code below this line
-#BMI= weight / height**2
+BMI= weight / height**2
 #print(type(height))
 
 #bmi = int(weight) / float(height)**2
-#bmi_as_int = int (bmi)
-#print(bmi_as_int)
-# = input("enter your height in m:")
-#weight = input("enter your weight in kg:")
+bmi_as_int = int (bmi)
+print(bmi_as_int)
+= input("enter your height in m:")
+weight = input("enter your weight in kg:")
 
 #weight_as_int = int(weight)
 #height_as_float = float(height)
 
-#bmi = weight_as_int / height_as_float ** 2
-
-#bmi_as_int = int(bmi)
-
-#print(bmi_as_int)
+bmi = weight_as_int / height_as_float ** 2
+bmi_as_int = int(bmi)
+print(bmi_as_int)
 
 #Day 2.end
-#print(round(4/3))
-#print(type(7/3))
+rint(round(4/3))
+print(type(7/3))
 
 #Day 2.3 Life in weeks exercise
 # don't change the code below
-#age = input ("what's your current age?")
+age = input ("what's your current age?")
 
 # 1 year = 365 days = 52 weeks =12 months
 # write your code below this line: 告诉我们实际上还剩下多少天，几周和几月？假如我们都活都90岁
-#your_age =int(age)
-#years = str(90-(your_age * 1))
-#days = str((90-your_age )* 365)
-#months = str((90-your_age )* 12)
-#print("you have "+years+"years"+","+days+"days"+","+months+"months"+"left")
+your_age =int(age)
+years = str(90-(your_age * 1))
+days = str((90-your_age )* 365)
+months = str((90-your_age )* 12)
+print("you have "+years+"years"+","+days+"days"+","+months+"months"+"left")
 
 #老师的做法：
-#message = f"you have{days}days,{months}months,{years}years"
-#print(message)
+message = f"you have{days}days,{months}months,{years}years"
+print(message)
 
 # Day2 project_Tip calculator
 #welcome to the tip calculator
